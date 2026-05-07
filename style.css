@@ -1,0 +1,69 @@
+:root {
+    --cor-primaria--: #ffffff;
+    --cor-secundaria: radial-gradient(107.95% 57.49% at 50% 100%, rgba(24, 37, 53, 0.2) 0%, rgba(24, 37, 53, 0.5215686275) 5%, rgba(24, 37, 53, 0.8509803922) 20%, #182535 60%, #192330 100%);
+    ;
+    --cor-destaque: #8f8580;
+    --fonte: 'Segoe UI', Arial, sans-serif;
+    --raio: 10px;
+    --sombra: 0 4px 12px rgba(0, 0, 0, .08);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./assets/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Footer grudado no rodapé */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    /* cresce e empurra footer */
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    background: #171a21;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 220px;
+    padding: 15px;
+}
+
+header nav {
+    display: flex;
+    gap: 25px;
+    margin-left: 50px;
+}
+
+.select-nav {
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background: var(--cor-destaque);
+    color: var(--cor-primaria--);
+}
+
+.select-nav:hover {
+    cursor: pointer;
+}
+
+footer {
+    background: black;
+}
