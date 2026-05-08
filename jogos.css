@@ -1,3 +1,13 @@
+:root {
+    --cor-primaria--: #ffffff;
+    --cor-secundaria: radial-gradient(107.95% 57.49% at 50% 100%, rgba(24, 37, 53, 0.2) 0%, rgba(24, 37, 53, 0.5215686275) 5%, rgba(24, 37, 53, 0.8509803922) 20%, #182535 60%, #192330 100%);
+    ;
+    --cor-destaque: #8f8580;
+    --fonte: 'Segoe UI', Arial, sans-serif;
+    --raio: 10px;
+    --sombra: 0 4px 12px rgba(0, 0, 0, .08);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -60,4 +70,12 @@ h2{
     font-size: 2.3rem;
     color: #dcdedf;
     margin: 50px 0 50px 20px;
+}
+
+footer{
+    text-align: center;
+    color:var(--cor-primaria--);
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    
 }
