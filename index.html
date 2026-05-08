@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Bem vindo(a) ao Steam</title>
 </head>
 
 <body>
@@ -33,11 +33,41 @@
     </header>
 
     <main>
-        <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="./assets/fc26.jpg" class="d-block w-100" alt="FC26">
+                </div>
+                <div class="carousel-item">
+                <img src="./assets/callOfDuty.jpg" class="d-block w-100" alt="Call of Duty">
+                </div>
+                <div class="carousel-item">
+                <img src="./assets/horazion.jpg" class="d-block w-100" alt="Forza Horizion 6">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+        <section class="card-main">
             <div class="card" style="width: 18rem;">
-                <img src="./assets/couterstrike.jpg" class="card-img-top" alt="...">
+                <img src="./assets/couterstrike.jpg" class="card-img-top" alt="Jogo Couter Strike">
                 <div class="card-body">
-                    <h5 class="card-title">Couter Strike</h5>
+                    <h5 class="card-title">Couter Strike 2</h5>
                     <p class="card-text">Há mais de duas décadas, o Counter-Strike oferece uma experiência
                          competitiva de elite moldada por milhões de jogadores mundialmente. 
                         Agora, o próximo capítulo da história do CS vai começar. Isso é Counter-Strike 2.
@@ -45,6 +75,72 @@
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/horazion.jpg" class="card-img-top" alt="Jogo forza horizion 6">
+                <div class="card-body">
+                    <h5 class="card-title">Forza Horizion 6</h5>
+                    <p class="card-text">
+                        Descubra as paisagens estonteantes do Japão em mais de 550 carros reais e se torne
+                        uma Lenda das corridas na maior aventura de direção em mundo aberto do Forza Horizon até agora.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/fc26.jpg" class="card-img-top" alt="Jogo FC26">
+                <div class="card-body">
+                    <h5 class="card-title">FC26</h5>
+                    <p class="card-text">
+                        O Clube é Seu no EA SPORTS FC™ 26. Jogue do seu jeito com uma experiência 
+                        de jogabilidade reformulada impulsionada pelos comentários da comunidade,
+                        Desafios de Manager ao Vivo que trazem novos enredos para a nova temporada
+                        e Arquétipos inspirados em craques do esporte.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/Rust.jpg" class="card-img-top" alt="Jogo Rust">
+                <div class="card-body">
+                    <h5 class="card-title">Rust</h5>
+                    <p class="card-text">
+                        O único objetivo no Rust é sobreviver. 
+                        Tudo contribui para sua morte: os animais selvagens 
+                        da ilha, outros habitantes, o ambiente e outros sobreviventes. 
+                        Faça o que for preciso para durar mais uma noite.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/Unchsrtted.jpg" class="card-img-top" alt="Jogo Uncharted">
+                <div class="card-body">
+                    <h5 class="card-title">Uncharte</h5>
+                    <p class="card-text">
+                        Jogue como Nathan Drake e Chloe Frazer nessa aventura independente
+                        em que deverão confrontar o passado para forjar o próprio legado.
+                        Inclui as duas aclamadas histórias para um jogador de UNCHARTED 4:
+                        A Thief’s End e UNCHARTED: O Legado Perdido.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/callOfDuty.jpg" class="card-img-top" alt="Jogo Call of Duty">
+                <div class="card-body">
+                    <h5 class="card-title">Call of Duty</h5>
+                    <p class="card-text">
+                        Call of Duty é uma famosa franquia de tiro em primeira pessoa, 
+                        com combates intensos, gráficos realistas e modos online competitivos.
+                         Uma experiência cheia de ação para quem busca adrenalina e estratégia.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
         </section>
 
 

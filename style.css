@@ -24,6 +24,24 @@ body {
     min-height: 100vh;
 }
 
+.card-main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.carousel{
+    margin-bottom: 50px;
+}
+
+.carousel-item img{
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 main {
     flex: 1;
     /* cresce e empurra footer */
@@ -65,5 +83,8 @@ header nav {
 }
 
 footer {
-    background: black;
+    text-align: center;
+    color:var(--cor-primaria--);
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
 }
