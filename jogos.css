@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background: url(./assets/new_login_bg_strong_mask.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 header{
     background: #171a21;
     display: flex;
