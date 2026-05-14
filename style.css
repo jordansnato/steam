@@ -100,3 +100,9 @@ footer {
     padding: 20px;
     background: rgba(0, 0, 0, 0.5);
 }
+.menorCarousel{
+    width: 60%;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;   
+}
