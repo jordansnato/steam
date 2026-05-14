@@ -1,5 +1,5 @@
 :root {
-    --cor-primaria--: #ffffff;
+    --cor-primaria--: aqua;
     --cor-secundaria: radial-gradient(107.95% 57.49% at 50% 100%, rgba(24, 37, 53, 0.2) 0%, rgba(24, 37, 53, 0.5215686275) 5%, rgba(24, 37, 53, 0.8509803922) 20%, #182535 60%, #192330 100%);
     ;
     --cor-destaque: #8f8580;
@@ -54,4 +54,28 @@ header a{
 header a:hover{
     background-color: rgba(255, 255, 255, 0.1);
     
+}
+
+.hero{
+    color: var(--cor-primaria--);
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    background: #8f8580;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.text{
+    margin-bottom: 20px;
+    list-style-type:none;
+}
+
+footer {
+    text-align: center;
+    color:var(--cor-primaria--);
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
 }
