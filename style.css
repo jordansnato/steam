@@ -63,10 +63,22 @@ header img {
     padding: 15px;
 }
 
-header nav {
-    display: flex;
-    gap: 25px;
-    margin-left: 50px;
+header a{
+    font-size: 14px;
+    font-size: 16px;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #dcdedf;
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+header a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    
 }
 
 .select-nav {
