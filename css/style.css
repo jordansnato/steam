@@ -15,7 +15,7 @@
 }
 
 body {
-    background: url(./assets/fundo.jpg);
+    background: url(../assets/fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* Footer grudado no rodapé */
