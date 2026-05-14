@@ -21,6 +21,10 @@ body{
     background-size: cover;
 }
 
+main{
+    margin: 10px;
+}
+
 header{
     background: #171a21;
     display: flex;
@@ -73,9 +77,15 @@ h2{
 }
 
 footer{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
     text-align: center;
     color:var(--cor-primaria--);
     padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    
+    background: rgba(0, 0, 0, 0.5);  
 }
