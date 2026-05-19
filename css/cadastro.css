@@ -1,5 +1,5 @@
 :root {
-    --cor-primaria--: #ffffff;
+    --cor-primaria--: aqua;
     --cor-secundaria: radial-gradient(107.95% 57.49% at 50% 100%, rgba(24, 37, 53, 0.2) 0%, rgba(24, 37, 53, 0.5215686275) 5%, rgba(24, 37, 53, 0.8509803922) 20%, #182535 60%, #192330 100%);
     ;
     --cor-destaque: #8f8580;
@@ -66,10 +66,35 @@ section{
     flex-direction: column;
     margin: auto;
     width: 250px;
-    gap: 10px;
+    margin-top: 20px;
+    gap: 20px;
 }
 
 section input{
     padding: 10px;
     border-radius: 10px;
+}
+.div-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn{ 
+    border-radius: 10px;
+    width: 350px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #dcdedf;
+}
+
+h2{
+    color: var(--cor-primaria--);
+    margin-bottom: 100px;
+    font-size: 2.2rem;
 }
