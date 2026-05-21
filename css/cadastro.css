@@ -66,6 +66,10 @@ main {
     width: 100%;
 }
 
+fieldset{
+    border-radius: 5px;
+}
+
 .campos{
     display: flex;
     flex-direction:column;
